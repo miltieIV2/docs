@@ -26,7 +26,7 @@ library [OpenSSL](https://www.openssl.org/) library and Go's custom implementati
 
 It attaches [uprobe](https://docs.kernel.org/trace/uprobetracer.html)(s)
 to [`SSL_read`](https://www.openssl.org/docs/man1.1.1/man3/SSL_read.html) and [`SSL_write`](https://www.openssl.org/docs/man1.1.1/man3/SSL_write.html)
-functions to simply reads the incoming unencrypted response and outgoing encrypted request in any TLS/SSL connection.
+functions to simply read the incoming unencrypted response and outgoing encrypted request in any TLS/SSL connection.
 
 Languages like Python, Java, PHP, Ruby and Node.js use OpenSSL library for their encryption/decryption work. So, pretty
 much any program or service that's doing encrypted communication (using TLS) falls into this category.
