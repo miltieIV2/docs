@@ -33,7 +33,7 @@ much any program or service that's doing encrypted communication (using TLS) fal
 
 ### Go
 
-Go is a little bit complicated than OpenSSL but the basic principle is the same.
+Go is a little bit more complicated than OpenSSL, but the basic principle is the same.
 
 Go language has two ABIs; **ABI0** and **ABIInternal**. We support both **amd64** and **arm64** so that translates into
 a good number of offsets to handle.
