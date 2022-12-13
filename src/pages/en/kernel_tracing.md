@@ -51,10 +51,10 @@ We [`kprobe`](https://www.kernel.org/doc/html/latest/trace/kprobes.html) certain
 like doing address resolution (by learning IP and port number for both source and destination) or for matching
 request-response pairs.
 
-While the methods explained in here sounds a little bit complicated the TLS sniffer has little to no performance
-impact thanks to efficient eBPF in-kernel virtual machine of Linux and our carefully written C code. In any case,
-Linux kernel does not allow injecting a huge number of instructions for probing purposes. So, the kernel's itself
-guarantee no slowdown or crash.
+While the methods explained here sound complicated, the TLS sniffer has little to no performance
+impact thanks to the efficient eBPF in-kernel virtual machine of Linux and our carefully written C code. In any case,
+the Linux kernel does not allow injecting a huge number of instructions for probing purposes. So, the kernel itself
+guarantees no slowdown or crash.
 
 ## Microservice Tracing
 
